@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "889966415795",
+    "firebase_url": "https://my-project-ed26a-default-rtdb.firebaseio.com",
+    "project_id": "my-project-ed26a",
+    "storage_bucket": "my-project-ed26a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889966415795:android:19977e47a670a2010605c6",
+        "android_client_info": {
+          "package_name": "com.flyai.android_firebase1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889966415795-98f7oa0u9b3c4tgiahvf3ujre7qc3prm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuVkD06uxzhH4XJxJXBwkny-8j_OVUObY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889966415795-98f7oa0u9b3c4tgiahvf3ujre7qc3prm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889966415795:android:6e8896202aa46f3b0605c6",
+        "android_client_info": {
+          "package_name": "com.flyai.android_firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889966415795-98f7oa0u9b3c4tgiahvf3ujre7qc3prm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuVkD06uxzhH4XJxJXBwkny-8j_OVUObY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889966415795-98f7oa0u9b3c4tgiahvf3ujre7qc3prm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889966415795:android:c795d30b2a7e2d6b0605c6",
+        "android_client_info": {
+          "package_name": "com.flyai.android_firebase3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889966415795-98f7oa0u9b3c4tgiahvf3ujre7qc3prm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuVkD06uxzhH4XJxJXBwkny-8j_OVUObY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889966415795-98f7oa0u9b3c4tgiahvf3ujre7qc3prm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:text="NFC tag Manager"
+        android:textAlignment="center"
+        android:background="#987654"/>
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read NFC Tag Manager"
+        android:layout_marginRight="12dp"
+        android:layout_below="@+id/txtTitle"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRead"
+        android:layout_marginRight="12dp"
+        android:text="Write NFC Tag Manager"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgNFC"
+        android:layout_width="146dp"
+        android:layout_height="287dp"
+        app:srcCompat="@drawable/nfc_image" />
+
+</RelativeLayout>

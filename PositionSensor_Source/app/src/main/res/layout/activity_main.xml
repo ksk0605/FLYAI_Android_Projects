@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Top_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_Orientation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orientation"
+            android:background="#999999"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtX_Orientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Azimuth: " />
+
+        <TextView
+            android:id="@+id/txtY_Orientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Pitch: " />
+
+        <TextView
+            android:id="@+id/txtZ_Orientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Roll: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_Magnetic_field"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/txtMagneticField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magnetic Field"
+            android:background="#999999"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtX_Magnetic_Field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="X:" />
+
+        <TextView
+            android:id="@+id/txtY_Magnetic_Field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Y: " />
+
+        <TextView
+            android:id="@+id/txtZ_Magnetic_Field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Z: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout_Proximity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/txtProximity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magnetic Field"
+            android:background="#999999"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtValue_Proximity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="0.0" />
+    </LinearLayout>
+
+</LinearLayout>

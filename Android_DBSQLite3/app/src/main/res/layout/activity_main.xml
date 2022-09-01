@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Management System"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtCarType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="34dp"
+        android:text="Type :" />
+
+    <EditText
+        android:id="@+id/editCarType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtCarType"
+        android:layout_alignBottom="@id/txtCarType"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@id/txtCarType"
+        android:ems="8" />
+
+    <TextView
+        android:id="@+id/txtCarPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCarType"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Power :" />
+
+    <EditText
+        android:id="@+id/editCarPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editCarType"
+        android:layout_alignLeft="@id/editCarType"
+        android:ems="8" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txtCarType"
+        android:layout_alignParentEnd="true"
+        android:text="Insert"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txtCarPower"
+        android:layout_alignParentEnd="true"
+        android:text="Update"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdate"
+        android:layout_alignParentEnd="true"
+        android:text="Delete"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDelete"
+        android:layout_alignParentEnd="true"
+        android:text="Search"
+        android:textSize="12dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstMember"
+        android:layout_below="@id/btnSearch"/>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android_Intent</string>
+    <string name="title_activity_cow">Cow</string>
+    <string name="title_activity_dog">Dog</string>
+</resources>
